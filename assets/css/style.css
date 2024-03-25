@@ -238,3 +238,50 @@ footer {
 footer a {
   color: fuchsia;
 }
+/* fino a qui la versione mobile */
+/* adesso inizia la versione intermedia */
+@media screen and (min-width: 576px) {
+  header {
+    padding: 1em 1.5em;
+  }
+  header div img {
+    width: 25%;
+  }
+  p,
+  address,
+  ul,
+  ol,
+  dl,
+  blockquote {
+    margin-bottom: 1.2em;
+    font-size: 1.09em;
+  }
+  address {
+    font-size: 1.19em;
+  }
+  header nav li {
+    margin-inline: 0.3em;
+  }
+  h1 {
+    font-size: 4.6rem;
+  }
+  .fucsia {
+    width: 15%;
+    height: 65px;
+  }
+  table {
+    margin-inline: auto;
+    width: 65%;
+  }
+  thead tr {
+    font-size: 1em;
+  }
+  input {
+    width: 60%;
+    height: 25px;
+  }
+  button {
+    height: 25px;
+    width: 20%;
+  }
+}
