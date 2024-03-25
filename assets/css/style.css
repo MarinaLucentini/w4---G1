@@ -13,9 +13,7 @@ body {
 * {
   box-sizing: content-box;
 }
-hr {
-  display: none;
-} /* rimuove l'elemento */
+/* rimuove l'elemento */
 
 /* HEADER */
 header {
@@ -345,5 +343,21 @@ footer a {
   address {
     font-size: 1.8em;
     margin-inline: 3.5em;
+  }
+}
+@media print {
+  body {
+    background: white;
+  }
+
+  main,
+  footer {
+    margin-inline: 5em;
+  }
+  header,
+  .section-novità,
+  footer,
+  aside {
+    display: none;
   }
 }
