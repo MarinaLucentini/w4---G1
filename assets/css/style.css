@@ -285,3 +285,65 @@ footer a {
     width: 20%;
   }
 }
+@media screen and (min-width: 1200px) {
+  header,
+  main,
+  footer {
+    margin-inline: 5em;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header div img {
+    width: 35%;
+  }
+  .fucsia {
+    width: 6%;
+    height: 60px;
+  }
+  p,
+  address,
+  ul,
+  ol,
+  dl,
+  blockquote {
+    font-size: 1.2em;
+  }
+
+  iframe {
+    width: 45%;
+    height: 255px;
+  }
+  section {
+    display: inline-block;
+    width: 50%;
+    border-radius: 15px;
+    height: 220px;
+  }
+  .section-novità {
+    display: flex;
+    align-items: center;
+  }
+  aside div {
+    display: inline-block;
+    width: 30%;
+    margin-inline: -0.09em;
+  }
+  footer {
+    padding: 2.5em;
+  }
+  footer p {
+    font-size: 1.8em;
+  }
+  address {
+    font-size: 1.8em;
+    margin-inline: 3.5em;
+  }
+}
